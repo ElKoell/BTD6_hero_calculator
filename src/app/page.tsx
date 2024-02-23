@@ -75,7 +75,7 @@ export default function Home() {
             </div>
             <div className="basis-1/4 mx-2">
               <ButtonTsx value={1.0} name="heroTier" buttonAmber={false} checked={true} required={true} showValue="Base Heroes">
-                <div className="h-full flex-inline flex">
+                <div className="h-full flex-inline flex overflow-hidden">
                   <Image
                     width={100}
                     height={100}
@@ -103,6 +103,13 @@ export default function Home() {
                     src="/heroes/base/GwendolinPortrait.webp"
                     className="w-auto h-full max-w-full max-h-full mx-auto"
                     alt="Gwendolin"
+                  />
+                   <Image
+                    width={100}
+                    height={100}
+                    src="/heroes/base/GeraldoPortrait.webp"
+                    className="w-auto h-full max-w-full max-h-full mx-auto"
+                    alt="Etienne"
                   />
                   <Image
                     width={100}
