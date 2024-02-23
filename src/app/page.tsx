@@ -192,12 +192,12 @@ export default function Home() {
             <div className="basis-1/4 mx-2 mb-2 bg-amber-500 rounded-lg shadow">
               <div className=" px-5 py-2">
                 <div className="flex">
-                  <InputField label="Begin:" placeholder="1-99" min="1" max="99" id="begin-round" inputName="startingRound" />
-                  <InputField label="End:" placeholder="2-100" min="2" max="100" id="end-round" inputName="untilRound" />
+                  <InputField label="Begin:" placeholder="1-119" min="1" max="119" id="begin-round" inputName="startingRound" />
+                  <InputField label="End:" placeholder="2-120" min="2" max="120" id="end-round" inputName="untilRound" />
                 </div>
                 <div className="flex">
-                  <InputField label="Playerss:" placeholder="1-4" min="1" max="4" id="amount-players" inputName="playerAmount" />
-                  <InputField label="Hero level:" placeholder="1-20" min="1" max="20" id="hero-level" inputName="startingLevel" />
+                  <InputField label="Players:" placeholder="1-4" min="1" max="4" id="amount-players" inputName="playerAmount" />
+                  <InputField label="Starting hero level:" placeholder="1-19" min="1" max="19" id="hero-level" inputName="startingLevel" />
                 </div>
                 <div className="rounded-lg flex items-center ps-4 border border-amber-200 w-full bg-amber-700">
                   <input
